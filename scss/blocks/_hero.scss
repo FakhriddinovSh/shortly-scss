@@ -1,0 +1,190 @@
+.hero{
+    background: #FFFFFF;
+    padding-bottom: 168px;
+}
+
+.hero__box{
+    display: block;
+}
+
+.hero__image{
+    width: 90%;
+    min-width: 320px;
+    margin-bottom: 37px;
+    float: right;
+}
+
+.hero__image > img{
+    width: 100%;
+}
+
+.hero__box{
+    position: relative;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.hero__title{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1.05px;
+    color: #34313D;
+}
+
+.hero__desc{
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.122727px;
+    color: #9E9AA8;
+}
+
+.hero__button{
+    width: 57%;
+    min-width: 178px;
+    padding: 14px 0;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (min-width: 860px){
+    .hero{
+        width: 100%;
+        min-width: 860px;
+        padding-top: 36px;
+        padding-bottom: 222px;
+        background-image: url("../images/hero-bg-tablet.png");
+        background-repeat: no-repeat;
+        background-size: 618px;
+        background-position-x: calc(50% + 458px);
+        background-position-y: calc(50% - 91px);
+    }
+    
+    .hero__text{
+        width: 100%;
+        max-width: 565px;
+    }
+    
+    .hero__box{
+        display: block;
+    }
+    
+    .hero__image{
+        display: none;
+    }
+    
+    .hero__box{
+        width: 100%;
+        min-width: 565px;
+        text-align: center;
+        margin-top: 37px;
+    }
+    
+    .hero__title{
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 77px;
+        letter-spacing: -2px;
+        text-align: start;
+        color: #34313D;
+    }
+    
+    .hero__desc{
+        margin-bottom: 38px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+        text-align: start;
+        color: #9E9AA8;
+    }
+    
+    .hero__button{
+        width: 30%;
+        min-width: 178px;
+        float: left;
+        padding: 14px 0;
+        background: #2BD0D0;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+
+@media only screen and (min-width: 1120px){
+    .hero__box{
+        width: 100%;
+        min-width: 565px;
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    .hero{
+        width: 100%;
+        min-width: 860px;
+        padding-top: 36px;
+        padding-bottom: 284px;
+        background-image: url("../images/hero-bg-desktop.png");
+        background-repeat: no-repeat;
+        background-size: 733px;
+        background-position-x: calc(50% + 500px);
+        background-position-y: calc(50% - 70px);
+    }
+    
+    
+    
+    .hero__image{
+        display: none;
+    }
+    
+    .hero__title{
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: -2px;
+        text-align: start;
+        color: #34313D;
+    }
+    
+    .hero__desc{
+        margin-bottom: 38px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+        text-align: start;
+        color: #9E9AA8;
+    }
+    
+    .hero__button
+    {
+        width: 30%;
+        min-width: 178px;
+        float: left;
+        padding: 14px 0;
+        background: #2BD0D0;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        &:hover{
+            background-color: #9AE3E3;
+        }
+    }
+}

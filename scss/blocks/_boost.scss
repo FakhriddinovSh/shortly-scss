@@ -1,0 +1,76 @@
+.boost{
+    width: 100%;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url("../images/boost-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boost__box{
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.boost__title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.7px;
+    color: #FFFFFF;
+}
+
+.boost__button{
+    padding: 14px 40px;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 860px){
+    .boost{
+        width: 100%;
+        min-width: 320px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-image: url("../images/boost-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .boost__box{
+        width: 100%;
+        min-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .boost__title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+    }
+    
+    .boost__button{
+        padding: 14px 40px;
+        background: #2BD0D0;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        &:hover{
+            background: #9AE3E3;
+        }
+    }
+}
