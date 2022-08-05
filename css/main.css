@@ -332,6 +332,11 @@ body {
   background: #2BD0D0;
   border-radius: 5px;
   text-align: center;
+  border: none;
+}
+
+.article__button:hover {
+  background-color: #9AE3E3;
 }
 
 @media only screen and (min-width: 860px) {
@@ -722,6 +727,9 @@ body {
     border-radius: 28px;
     text-align: center;
   }
+  .site-header__login:nth-child(2):hover {
+    background-color: #9AE3E3;
+  }
   .site-header__login:nth-child(2) > .site-header__link {
     color: #fff;
   }
@@ -772,6 +780,9 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+  }
+  .hero__button:hover {
+    background-color: #9AE3E3;
   }
 }
 /*# sourceMappingURL=main.css.map */
