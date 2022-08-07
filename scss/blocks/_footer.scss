@@ -81,7 +81,9 @@
 
 
 
-@media only screen and (min-width: 1000px){
+
+
+@media only screen and (min-width: 1120px){
     .site-footer{
         padding-top: 71px;
         padding-bottom: 70px;
@@ -92,7 +94,7 @@
         display: flex;
         text-align: start;
     }
-    
+
     .footer__list__box{
         margin-top: 0px;
         &:first-child{
